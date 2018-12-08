@@ -1,0 +1,424 @@
+html {
+  font-size: 16px;
+}
+
+.header {
+  height: 5rem;
+  display: flex;
+  align-items: center;
+}
+
+.mobile {
+  display: none;
+}
+
+.header h2 {
+  height: 32px;
+  flex-grow: 1;
+  font-size: 2rem;
+}
+
+span {
+  color: grey;
+}
+
+.header img {
+  margin-left: 24px;
+  height: 60px;
+}
+
+.top {
+  display: flex;
+  align-items: center;
+  background-color: lightgrey;
+}
+
+.top .picture {
+  margin: 32px 24px;
+  width: 60%;
+}
+
+.picture img {
+  width: 100%;
+}
+
+.top .comment {
+  width: 40%;
+}
+
+.top .comment h1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  opacity: 0.7;
+  font-size: 4rem;
+}
+
+.top .comment h2 {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  opacity: 0.7;
+  font-size: 2rem;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 1rem;
+  font-size: 1.5rem;
+}
+
+.button {
+  width: 30rem;
+  background-color: black;
+  text-align: center;
+  height: 5rem;
+  opacity: 0.7;
+}
+
+.button h3 {
+  color: white;
+  font-size: 2rem;
+  font-weight: 200;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.middle-top {
+  display: flex;
+}
+
+.middle-top h1, h2, p, h3 {
+  opacity: 0.7;
+}
+
+.middle-top .left {
+  width: 60%;
+}
+
+.middle-top .left h1 {
+  font-size: 3rem;
+}
+
+.middle-top .left p {
+  font-size: 1.5rem;
+}
+
+.middle-top .left h1, p {
+  margin-left: 30px;
+}
+
+.middle-top .right {
+  float: right;
+  flex-direction: column;
+}
+
+.middle-top .right .unit {
+  display: flex;
+}
+
+.middle-top .picture {
+  margin: 32px 24px;
+}
+
+.left h1 {
+  margin-top: 32px;
+  margin-bottom: 24px;
+}
+
+.left p.english {
+  margin-bottom: 32px;
+}
+
+.right {
+  width: 40%;
+}
+
+.right .picture {
+  width: 35%;
+}
+
+.right .information {
+  width: 65%;
+}
+
+.right .information h2 {
+  font-size: 2rem;
+}
+
+.right .information p {
+  font-size: 1.5rem;
+}
+
+.right .information h3 {
+  font-size: 1.3rem;
+}
+
+.right p {
+  margin-left: 0px;
+}
+
+.unit .picture {
+  width: 35%;
+  margin: 16px;
+}
+
+.unit .information {
+  width: 65%;
+}
+
+.information {
+  text-align: left;
+}
+
+.information h3 {
+  color: blue;
+}
+
+.unit:nth-of-type(3) {
+  background-color: lightgray;
+}
+
+.middle-bottom {
+  padding: 32px 72px;
+  padding-bottom: 2rem;;
+  background-color: lightgrey;
+}
+
+.middle-bottom h1 {
+  text-align: center;
+  margin-top: 4rem;
+  margin-bottom: 5rem;
+  font-size: 3rem;
+  opacity: 0.8;
+}
+
+.collage {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.collage .sheet {
+  width: 31%;
+  background: white;
+  margin-bottom: 1rem;
+}
+
+.collage .sheet h2 {
+  font-size: 2rem;
+  letter-spacing: 2px;
+}
+
+.collage .sheet h3 {
+  font-weight: 200;
+}
+
+.collage .sheet p {
+  font-size: 1.5rem;
+  font-weight: 200;
+}
+
+.sheet p {
+  margin-left: 0px;
+}
+
+.bottom {
+  padding-top: 2rem;
+}
+
+.bottom h1 {
+  text-align: center;
+  font-size: 3rem;
+  margin-top: 4rem;
+  margin-bottom: 5rem;
+  opacity: 0.8;
+}
+
+.exhibit {
+  display: flex;
+}
+
+.exhibit {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.bottom .left {
+  padding-left: 24px;
+  padding-right: 24px;
+  box-sizing: border-box;
+}
+
+.exhibit .left h1 {
+  text-align: left;
+  font-size: 2rem;
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.exhibit .left p {
+  padding-left: 0px;
+  font-size: 1.5rem;
+}
+
+.bottom .left {
+  width: 60%;
+}
+
+.bottom .left p {
+  margin-left: 0px;
+}
+
+.bottom .right .sheet {
+  display: flex;
+  padding: 16px 0 16px 16px;
+}
+
+.text h1 {
+  font-size: 2rem;
+}
+
+.bottom .right h1{
+  margin: 0;
+  padding-left: 1rem;
+  opacity: 0.7;
+}
+
+.bottom .right p{
+  padding-left: 1rem;
+  font-size: 1.5rem;
+}
+
+.bottom .right .text{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.text h1, p {
+  text-align: left;
+}
+
+.bottom .right .picture {
+  width: 35%;
+}
+
+.sheet .picture img {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.first {
+  background-color: lightgray;
+}
+
+.video video {
+  width: 100%;
+}
+
+.footer {
+  height: 7rem;
+  display: flex;
+}
+
+.footer p {
+  flex-grow: 1;
+  margin-left: 24px;
+  margin-top: 16px;
+  font-size: 1.5rem;
+}
+
+.footer ul {
+  opacity: 0.7;
+}
+
+
+@media only screen and (max-width: 768px) {
+   .header .desktop {
+     display: none;
+   }
+
+   .header .mobile  {
+     display: inline-block;
+   }
+
+   .top {
+     display: flex;
+     flex-direction: column;
+   }
+
+   .top .picture, .picture img {
+     width: 100%;
+   }
+
+   .top .comment {
+     align-items: center;
+     width: 100%;
+   }
+
+   .middle-top .left {
+     display: none;
+   }
+
+   .middle-top .right .unit {
+     display: flex;
+     flex-direction: column;
+   }
+
+   .middle-top .right .unit .desktop {
+     display: none;
+   }
+
+   .middle-top .right .unit .mobile {
+     display: block;
+   }
+
+   .middle-top .picture {
+     width: 100%;
+   }
+
+   .middle-top .unit img {
+     width: 100%;
+   }
+
+   .middle-top .unit .information {
+     width: 100%;
+   }
+
+   .middle-bottom .desktop {
+     display: none;
+   }
+
+   .middle-bottom .mobile {
+     display: block;
+   }
+  .right {
+    width: 100%;
+  }
+  .middle-bottom .mobile .collage .sheet {
+    width: 100%;
+  }
+  .middle-bottom .mobile .collage {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .bottom .right {
+    display: none;
+  }
+
+  .bottom .left h1, p {
+    display: none;
+  }
+
+  .bottom .left {
+    width: 100%;
+  }
+
+  .footer nav {
+    display: none;
+  }
+
+  .footer p {
+    display: block;
+  }
+ }
